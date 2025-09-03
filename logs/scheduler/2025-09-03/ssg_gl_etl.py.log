@@ -1700,3 +1700,52 @@
 [2025-09-03T19:48:11.154+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:11.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-03T19:48:11.180+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:11.180+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
 [2025-09-03T19:48:11.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.102 seconds
+[2025-09-03T19:48:41.986+0000] {processor.py:186} INFO - Started process (PID=10960) to work on /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:48:41.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ssg_gl_etl.py for tasks to queue
+[2025-09-03T19:48:41.990+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:41.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:48:42.020+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_erp_gl' retrieved from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:48:42.045+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:42.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:48:42.068+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:42.068+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
+[2025-09-03T19:48:42.083+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.102 seconds
+[2025-09-03T19:49:12.936+0000] {processor.py:186} INFO - Started process (PID=11067) to work on /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:49:12.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ssg_gl_etl.py for tasks to queue
+[2025-09-03T19:49:12.940+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:12.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:49:12.961+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_erp_gl' retrieved from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:49:12.989+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:12.989+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:49:13.028+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:13.028+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
+[2025-09-03T19:49:13.049+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.120 seconds
+[2025-09-03T19:49:43.613+0000] {processor.py:186} INFO - Started process (PID=11174) to work on /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:49:43.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ssg_gl_etl.py for tasks to queue
+[2025-09-03T19:49:43.618+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:43.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:49:43.650+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_erp_gl' retrieved from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:49:43.674+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:43.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:49:43.698+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:43.698+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
+[2025-09-03T19:49:43.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.112 seconds
+[2025-09-03T19:50:14.562+0000] {processor.py:186} INFO - Started process (PID=11281) to work on /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:50:14.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ssg_gl_etl.py for tasks to queue
+[2025-09-03T19:50:14.566+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:14.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:50:14.590+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_erp_gl' retrieved from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:50:14.623+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:14.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:50:14.654+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:14.653+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
+[2025-09-03T19:50:14.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.119 seconds
+[2025-09-03T19:50:45.580+0000] {processor.py:186} INFO - Started process (PID=11388) to work on /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:50:45.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ssg_gl_etl.py for tasks to queue
+[2025-09-03T19:50:45.586+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:45.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:50:45.621+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_erp_gl' retrieved from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:50:45.644+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:45.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:50:45.665+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:45.665+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
+[2025-09-03T19:50:45.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.111 seconds
+[2025-09-03T19:51:15.795+0000] {processor.py:186} INFO - Started process (PID=11492) to work on /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:51:15.796+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ssg_gl_etl.py for tasks to queue
+[2025-09-03T19:51:15.799+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:51:15.817+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_erp_gl' retrieved from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:51:15.841+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.841+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:51:15.860+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.860+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
+[2025-09-03T19:51:15.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.088 seconds
+[2025-09-03T19:51:46.478+0000] {processor.py:186} INFO - Started process (PID=11602) to work on /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:51:46.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ssg_gl_etl.py for tasks to queue
+[2025-09-03T19:51:46.483+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:51:46.510+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_erp_gl' retrieved from /opt/airflow/dags/ssg_gl_etl.py
+[2025-09-03T19:51:46.535+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:51:46.562+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.562+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_erp_gl to 2025-09-02 19:00:00+00:00, run_after=2025-09-03 19:00:00+00:00
+[2025-09-03T19:51:46.584+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ssg_gl_etl.py took 0.111 seconds

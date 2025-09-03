@@ -1208,3 +1208,38 @@
 [2025-09-03T19:48:11.407+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:11.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
 [2025-09-03T19:48:11.410+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
 [2025-09-03T19:48:11.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.023 seconds
+[2025-09-03T19:48:42.291+0000] {processor.py:186} INFO - Started process (PID=10976) to work on /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:48:42.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/bashoperator.py for tasks to queue
+[2025-09-03T19:48:42.293+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:42.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:48:42.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:48:42.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.026 seconds
+[2025-09-03T19:49:13.247+0000] {processor.py:186} INFO - Started process (PID=11083) to work on /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:49:13.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/bashoperator.py for tasks to queue
+[2025-09-03T19:49:13.250+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:13.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:49:13.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:49:13.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.025 seconds
+[2025-09-03T19:49:43.946+0000] {processor.py:186} INFO - Started process (PID=11190) to work on /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:49:43.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/bashoperator.py for tasks to queue
+[2025-09-03T19:49:43.949+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:43.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:49:43.952+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:49:43.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.026 seconds
+[2025-09-03T19:50:14.902+0000] {processor.py:186} INFO - Started process (PID=11297) to work on /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:50:14.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/bashoperator.py for tasks to queue
+[2025-09-03T19:50:14.906+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:14.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:50:14.910+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:50:14.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.032 seconds
+[2025-09-03T19:50:45.887+0000] {processor.py:186} INFO - Started process (PID=11404) to work on /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:50:45.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/bashoperator.py for tasks to queue
+[2025-09-03T19:50:45.891+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:45.891+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:50:45.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:50:45.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.028 seconds
+[2025-09-03T19:51:15.958+0000] {processor.py:186} INFO - Started process (PID=11505) to work on /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:51:15.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/bashoperator.py for tasks to queue
+[2025-09-03T19:51:15.963+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.963+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:51:15.970+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:51:15.982+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.029 seconds
+[2025-09-03T19:51:46.802+0000] {processor.py:186} INFO - Started process (PID=11618) to work on /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:51:46.804+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/bashoperator.py for tasks to queue
+[2025-09-03T19:51:46.807+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:51:46.811+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/test/bashoperator.py
+[2025-09-03T19:51:46.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/bashoperator.py took 0.030 seconds

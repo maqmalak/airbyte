@@ -1208,3 +1208,38 @@
 [2025-09-03T19:48:09.990+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:09.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
 [2025-09-03T19:48:09.993+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
 [2025-09-03T19:48:10.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.032 seconds
+[2025-09-03T19:48:40.855+0000] {processor.py:186} INFO - Started process (PID=10945) to work on /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:48:40.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_pipeline_hangerlines.py for tasks to queue
+[2025-09-03T19:48:40.859+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:40.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:48:40.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:48:40.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.032 seconds
+[2025-09-03T19:49:11.833+0000] {processor.py:186} INFO - Started process (PID=11054) to work on /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:49:11.835+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_pipeline_hangerlines.py for tasks to queue
+[2025-09-03T19:49:11.837+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:11.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:49:11.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:49:11.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.037 seconds
+[2025-09-03T19:49:42.529+0000] {processor.py:186} INFO - Started process (PID=11159) to work on /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:49:42.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_pipeline_hangerlines.py for tasks to queue
+[2025-09-03T19:49:42.533+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:42.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:49:42.540+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:49:42.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.032 seconds
+[2025-09-03T19:50:13.423+0000] {processor.py:186} INFO - Started process (PID=11261) to work on /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:50:13.424+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_pipeline_hangerlines.py for tasks to queue
+[2025-09-03T19:50:13.426+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:13.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:50:13.429+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:50:13.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.026 seconds
+[2025-09-03T19:50:44.490+0000] {processor.py:186} INFO - Started process (PID=11370) to work on /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:50:44.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_pipeline_hangerlines.py for tasks to queue
+[2025-09-03T19:50:44.494+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:44.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:50:44.496+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:50:44.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.026 seconds
+[2025-09-03T19:51:15.562+0000] {processor.py:186} INFO - Started process (PID=11477) to work on /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:51:15.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_pipeline_hangerlines.py for tasks to queue
+[2025-09-03T19:51:15.567+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.566+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:51:15.570+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:51:15.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.035 seconds
+[2025-09-03T19:51:46.319+0000] {processor.py:186} INFO - Started process (PID=11587) to work on /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:51:46.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_pipeline_hangerlines.py for tasks to queue
+[2025-09-03T19:51:46.324+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:51:46.330+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_pipeline_hangerlines.py
+[2025-09-03T19:51:46.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_pipeline_hangerlines.py took 0.038 seconds

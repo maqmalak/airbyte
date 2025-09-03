@@ -58,12 +58,12 @@ RUN CURRENT_UID=$(id -u airflow) && \
 USER airflow
 
 
-#COPY requirements.txt /opt/airbyte-docker/airflow/include/scripts/requirements.txt
+COPY requirements.txt /opt/airbyte-docker/airflow/requirements.txt
 ENV PYTHONPATH=/opt/airflow/include:/opt/airbyte-docker/airflow/scripts:$PYTHONPATH
 
 # Upgrade pip and install dependencies with retry options
 RUN pip install --upgrade pip && \
-    pip install --no-cache-dir --timeout 1000 --retries 10 -r requirements.txt
+    pip install --no-cache-dir --timeout 1000 --retries 10 -r /opt/airbyte-docker/airflow/requirements.txt
 
 # FROM apache/airflow:2.11.0
 

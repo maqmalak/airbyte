@@ -3870,3 +3870,115 @@
 [2025-09-03T19:48:09.755+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:09.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-03T19:48:09.783+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:09.783+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
 [2025-09-03T19:48:09.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.209 seconds
+[2025-09-03T19:48:40.278+0000] {processor.py:186} INFO - Started process (PID=10915) to work on /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:48:40.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_test.py for tasks to queue
+[2025-09-03T19:48:40.282+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:40.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:48:40.309+0000] {logging_mixin.py:190} INFO - Python path: ['/home/airflow/.local/bin', '/opt/airflow', '/opt/airflow/include', '/usr/local/lib/python312.zip', '/usr/local/lib/python3.12', '/usr/local/lib/python3.12/lib-dynload', '/home/airflow/.local/lib/python3.12/site-packages', '/opt/airflow/config', '/opt/airflow/plugins', '/opt/airflow/dags', '/opt/airflow/include/dags']
+[2025-09-03T19:48:40.310+0000] {logging_mixin.py:190} INFO - DAGs path exists: False
+[2025-09-03T19:48:40.311+0000] {logging_mixin.py:190} INFO - db_utils.py exists: False
+[2025-09-03T19:48:40.379+0000] {logging_mixin.py:190} INFO - Successfully imported PySpark modules
+[2025-09-03T19:48:40.380+0000] {logging_mixin.py:190} INFO - Successfully imported db_utils
+[2025-09-03T19:48:40.380+0000] {logging_mixin.py:190} INFO - Successfully imported functions from hanger_line_transform.py
+[2025-09-03T19:48:40.410+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:65 SAWarning: Table 'opd_date_shift' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'Shift', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'Shift', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:48:40.411+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:80 SAWarning: Table 'opd_date_oc' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'OC_Description', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'OC_Description', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:48:40.413+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:95 SAWarning: Table 'opd_date_employee' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'ODP_EM_Key', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'ODP_EM_Key', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:48:40.417+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_hanger_lines' retrieved from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:48:40.544+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:40.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:48:40.569+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:40.569+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:48:40.594+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.322 seconds
+[2025-09-03T19:49:11.365+0000] {processor.py:186} INFO - Started process (PID=11022) to work on /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:49:11.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_test.py for tasks to queue
+[2025-09-03T19:49:11.369+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:11.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:49:11.390+0000] {logging_mixin.py:190} INFO - Python path: ['/home/airflow/.local/bin', '/opt/airflow', '/opt/airflow/include', '/usr/local/lib/python312.zip', '/usr/local/lib/python3.12', '/usr/local/lib/python3.12/lib-dynload', '/home/airflow/.local/lib/python3.12/site-packages', '/opt/airflow/config', '/opt/airflow/plugins', '/opt/airflow/dags', '/opt/airflow/include/dags']
+[2025-09-03T19:49:11.391+0000] {logging_mixin.py:190} INFO - DAGs path exists: False
+[2025-09-03T19:49:11.391+0000] {logging_mixin.py:190} INFO - db_utils.py exists: False
+[2025-09-03T19:49:11.447+0000] {logging_mixin.py:190} INFO - Successfully imported PySpark modules
+[2025-09-03T19:49:11.448+0000] {logging_mixin.py:190} INFO - Successfully imported db_utils
+[2025-09-03T19:49:11.448+0000] {logging_mixin.py:190} INFO - Successfully imported functions from hanger_line_transform.py
+[2025-09-03T19:49:11.465+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:65 SAWarning: Table 'opd_date_shift' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'Shift', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'Shift', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:49:11.466+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:80 SAWarning: Table 'opd_date_oc' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'OC_Description', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'OC_Description', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:49:11.467+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:95 SAWarning: Table 'opd_date_employee' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'ODP_EM_Key', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'ODP_EM_Key', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:49:11.469+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_hanger_lines' retrieved from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:49:11.486+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:11.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:49:11.519+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:11.519+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:49:11.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.183 seconds
+[2025-09-03T19:49:42.184+0000] {processor.py:186} INFO - Started process (PID=11129) to work on /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:49:42.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_test.py for tasks to queue
+[2025-09-03T19:49:42.187+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:42.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:49:42.203+0000] {logging_mixin.py:190} INFO - Python path: ['/home/airflow/.local/bin', '/opt/airflow', '/opt/airflow/include', '/usr/local/lib/python312.zip', '/usr/local/lib/python3.12', '/usr/local/lib/python3.12/lib-dynload', '/home/airflow/.local/lib/python3.12/site-packages', '/opt/airflow/config', '/opt/airflow/plugins', '/opt/airflow/dags', '/opt/airflow/include/dags']
+[2025-09-03T19:49:42.203+0000] {logging_mixin.py:190} INFO - DAGs path exists: False
+[2025-09-03T19:49:42.204+0000] {logging_mixin.py:190} INFO - db_utils.py exists: False
+[2025-09-03T19:49:42.255+0000] {logging_mixin.py:190} INFO - Successfully imported PySpark modules
+[2025-09-03T19:49:42.257+0000] {logging_mixin.py:190} INFO - Successfully imported db_utils
+[2025-09-03T19:49:42.257+0000] {logging_mixin.py:190} INFO - Successfully imported functions from hanger_line_transform.py
+[2025-09-03T19:49:42.274+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:65 SAWarning: Table 'opd_date_shift' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'Shift', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'Shift', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:49:42.276+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:80 SAWarning: Table 'opd_date_oc' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'OC_Description', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'OC_Description', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:49:42.277+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:95 SAWarning: Table 'opd_date_employee' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'ODP_EM_Key', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'ODP_EM_Key', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:49:42.280+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_hanger_lines' retrieved from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:49:42.292+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:42.292+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:49:42.318+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:42.318+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:49:42.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.163 seconds
+[2025-09-03T19:50:13.091+0000] {processor.py:186} INFO - Started process (PID=11236) to work on /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:50:13.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_test.py for tasks to queue
+[2025-09-03T19:50:13.093+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:13.093+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:50:13.108+0000] {logging_mixin.py:190} INFO - Python path: ['/home/airflow/.local/bin', '/opt/airflow', '/opt/airflow/include', '/usr/local/lib/python312.zip', '/usr/local/lib/python3.12', '/usr/local/lib/python3.12/lib-dynload', '/home/airflow/.local/lib/python3.12/site-packages', '/opt/airflow/config', '/opt/airflow/plugins', '/opt/airflow/dags', '/opt/airflow/include/dags']
+[2025-09-03T19:50:13.109+0000] {logging_mixin.py:190} INFO - DAGs path exists: False
+[2025-09-03T19:50:13.109+0000] {logging_mixin.py:190} INFO - db_utils.py exists: False
+[2025-09-03T19:50:13.170+0000] {logging_mixin.py:190} INFO - Successfully imported PySpark modules
+[2025-09-03T19:50:13.171+0000] {logging_mixin.py:190} INFO - Successfully imported db_utils
+[2025-09-03T19:50:13.171+0000] {logging_mixin.py:190} INFO - Successfully imported functions from hanger_line_transform.py
+[2025-09-03T19:50:13.185+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:65 SAWarning: Table 'opd_date_shift' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'Shift', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'Shift', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:50:13.186+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:80 SAWarning: Table 'opd_date_oc' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'OC_Description', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'OC_Description', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:50:13.187+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:95 SAWarning: Table 'opd_date_employee' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'ODP_EM_Key', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'ODP_EM_Key', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:50:13.190+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_hanger_lines' retrieved from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:50:13.203+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:13.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:50:13.231+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:13.230+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:50:13.252+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.165 seconds
+[2025-09-03T19:50:43.935+0000] {processor.py:186} INFO - Started process (PID=11343) to work on /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:50:43.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_test.py for tasks to queue
+[2025-09-03T19:50:43.940+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:43.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:50:43.962+0000] {logging_mixin.py:190} INFO - Python path: ['/home/airflow/.local/bin', '/opt/airflow', '/opt/airflow/include', '/usr/local/lib/python312.zip', '/usr/local/lib/python3.12', '/usr/local/lib/python3.12/lib-dynload', '/home/airflow/.local/lib/python3.12/site-packages', '/opt/airflow/config', '/opt/airflow/plugins', '/opt/airflow/dags', '/opt/airflow/include/dags']
+[2025-09-03T19:50:43.963+0000] {logging_mixin.py:190} INFO - DAGs path exists: False
+[2025-09-03T19:50:43.963+0000] {logging_mixin.py:190} INFO - db_utils.py exists: False
+[2025-09-03T19:50:44.046+0000] {logging_mixin.py:190} INFO - Successfully imported PySpark modules
+[2025-09-03T19:50:44.047+0000] {logging_mixin.py:190} INFO - Successfully imported db_utils
+[2025-09-03T19:50:44.047+0000] {logging_mixin.py:190} INFO - Successfully imported functions from hanger_line_transform.py
+[2025-09-03T19:50:44.065+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:65 SAWarning: Table 'opd_date_shift' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'Shift', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'Shift', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:50:44.066+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:80 SAWarning: Table 'opd_date_oc' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'OC_Description', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'OC_Description', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:50:44.067+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:95 SAWarning: Table 'opd_date_employee' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'ODP_EM_Key', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'ODP_EM_Key', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:50:44.070+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_hanger_lines' retrieved from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:50:44.304+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:44.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:50:44.324+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:44.324+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:50:44.345+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.417 seconds
+[2025-09-03T19:51:15.001+0000] {processor.py:186} INFO - Started process (PID=11450) to work on /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:51:15.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_test.py for tasks to queue
+[2025-09-03T19:51:15.005+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:51:15.020+0000] {logging_mixin.py:190} INFO - Python path: ['/home/airflow/.local/bin', '/opt/airflow', '/opt/airflow/include', '/usr/local/lib/python312.zip', '/usr/local/lib/python3.12', '/usr/local/lib/python3.12/lib-dynload', '/home/airflow/.local/lib/python3.12/site-packages', '/opt/airflow/config', '/opt/airflow/plugins', '/opt/airflow/dags', '/opt/airflow/include/dags']
+[2025-09-03T19:51:15.021+0000] {logging_mixin.py:190} INFO - DAGs path exists: False
+[2025-09-03T19:51:15.021+0000] {logging_mixin.py:190} INFO - db_utils.py exists: False
+[2025-09-03T19:51:15.076+0000] {logging_mixin.py:190} INFO - Successfully imported PySpark modules
+[2025-09-03T19:51:15.077+0000] {logging_mixin.py:190} INFO - Successfully imported db_utils
+[2025-09-03T19:51:15.077+0000] {logging_mixin.py:190} INFO - Successfully imported functions from hanger_line_transform.py
+[2025-09-03T19:51:15.090+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:65 SAWarning: Table 'opd_date_shift' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'Shift', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'Shift', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:51:15.091+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:80 SAWarning: Table 'opd_date_oc' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'OC_Description', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'OC_Description', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:51:15.092+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:95 SAWarning: Table 'opd_date_employee' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'ODP_EM_Key', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'ODP_EM_Key', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:51:15.094+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_hanger_lines' retrieved from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:51:15.109+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.108+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:51:15.378+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.377+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:51:15.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.404 seconds
+[2025-09-03T19:51:45.835+0000] {processor.py:186} INFO - Started process (PID=11557) to work on /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:51:45.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_test.py for tasks to queue
+[2025-09-03T19:51:45.840+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:45.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:51:45.870+0000] {logging_mixin.py:190} INFO - Python path: ['/home/airflow/.local/bin', '/opt/airflow', '/opt/airflow/include', '/usr/local/lib/python312.zip', '/usr/local/lib/python3.12', '/usr/local/lib/python3.12/lib-dynload', '/home/airflow/.local/lib/python3.12/site-packages', '/opt/airflow/config', '/opt/airflow/plugins', '/opt/airflow/dags', '/opt/airflow/include/dags']
+[2025-09-03T19:51:45.871+0000] {logging_mixin.py:190} INFO - DAGs path exists: False
+[2025-09-03T19:51:45.872+0000] {logging_mixin.py:190} INFO - db_utils.py exists: False
+[2025-09-03T19:51:45.950+0000] {logging_mixin.py:190} INFO - Successfully imported PySpark modules
+[2025-09-03T19:51:45.951+0000] {logging_mixin.py:190} INFO - Successfully imported db_utils
+[2025-09-03T19:51:45.952+0000] {logging_mixin.py:190} INFO - Successfully imported functions from hanger_line_transform.py
+[2025-09-03T19:51:45.980+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:65 SAWarning: Table 'opd_date_shift' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'Shift', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'Shift', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:51:45.981+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:80 SAWarning: Table 'opd_date_oc' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'OC_Description', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'OC_Description', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:51:45.983+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/create_target_pg_hl_table.py:95 SAWarning: Table 'opd_date_employee' specifies columns 'id' as primary_key=True, not matching locally specified columns 'ODP_Date', 'ODP_EM_Key', 'source_connection'; setting the current primary key columns to 'ODP_Date', 'ODP_EM_Key', 'source_connection'. This warning may become an exception in a future release
+[2025-09-03T19:51:45.987+0000] {processor.py:925} INFO - DAG(s) 'etl_ssg_hanger_lines' retrieved from /opt/airflow/dags/hanger_test.py
+[2025-09-03T19:51:46.005+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:51:46.045+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.045+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_ssg_hanger_lines to 2025-09-03 19:00:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:51:46.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_test.py took 0.407 seconds

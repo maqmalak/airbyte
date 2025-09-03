@@ -1942,3 +1942,59 @@
 [2025-09-03T19:48:09.812+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:09.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-03T19:48:09.843+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:09.843+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
 [2025-09-03T19:48:09.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.107 seconds
+[2025-09-03T19:48:40.517+0000] {processor.py:186} INFO - Started process (PID=10920) to work on /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:48:40.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_line_daily_transform.py for tasks to queue
+[2025-09-03T19:48:40.521+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:40.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:48:40.525+0000] {logging_mixin.py:190} INFO - Error importing functions from hanger_line_transform.py: No module named 'hanger_line_transform'
+[2025-09-03T19:48:40.535+0000] {processor.py:925} INFO - DAG(s) 'hanger_line_daily_transform' retrieved from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:48:40.563+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:40.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:48:40.593+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:48:40.593+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
+[2025-09-03T19:48:40.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.105 seconds
+[2025-09-03T19:49:11.475+0000] {processor.py:186} INFO - Started process (PID=11027) to work on /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:49:11.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_line_daily_transform.py for tasks to queue
+[2025-09-03T19:49:11.477+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:11.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:49:11.480+0000] {logging_mixin.py:190} INFO - Error importing functions from hanger_line_transform.py: No module named 'hanger_line_transform'
+[2025-09-03T19:49:11.490+0000] {processor.py:925} INFO - DAG(s) 'hanger_line_daily_transform' retrieved from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:49:11.515+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:11.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:49:11.554+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:11.554+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
+[2025-09-03T19:49:11.578+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.108 seconds
+[2025-09-03T19:49:42.316+0000] {processor.py:186} INFO - Started process (PID=11134) to work on /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:49:42.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_line_daily_transform.py for tasks to queue
+[2025-09-03T19:49:42.319+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:42.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:49:42.322+0000] {logging_mixin.py:190} INFO - Error importing functions from hanger_line_transform.py: No module named 'hanger_line_transform'
+[2025-09-03T19:49:42.329+0000] {processor.py:925} INFO - DAG(s) 'hanger_line_daily_transform' retrieved from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:49:42.353+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:42.353+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:49:42.380+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:49:42.380+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
+[2025-09-03T19:49:42.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.092 seconds
+[2025-09-03T19:50:13.240+0000] {processor.py:186} INFO - Started process (PID=11241) to work on /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:50:13.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_line_daily_transform.py for tasks to queue
+[2025-09-03T19:50:13.242+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:13.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:50:13.245+0000] {logging_mixin.py:190} INFO - Error importing functions from hanger_line_transform.py: No module named 'hanger_line_transform'
+[2025-09-03T19:50:13.254+0000] {processor.py:925} INFO - DAG(s) 'hanger_line_daily_transform' retrieved from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:50:13.286+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:13.285+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:50:13.311+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:13.311+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
+[2025-09-03T19:50:13.336+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.103 seconds
+[2025-09-03T19:50:44.244+0000] {processor.py:186} INFO - Started process (PID=11348) to work on /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:50:44.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_line_daily_transform.py for tasks to queue
+[2025-09-03T19:50:44.247+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:44.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:50:44.250+0000] {logging_mixin.py:190} INFO - Error importing functions from hanger_line_transform.py: No module named 'hanger_line_transform'
+[2025-09-03T19:50:44.258+0000] {processor.py:925} INFO - DAG(s) 'hanger_line_daily_transform' retrieved from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:50:44.283+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:44.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:50:44.311+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:50:44.311+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
+[2025-09-03T19:50:44.331+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.092 seconds
+[2025-09-03T19:51:15.273+0000] {processor.py:186} INFO - Started process (PID=11455) to work on /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:51:15.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_line_daily_transform.py for tasks to queue
+[2025-09-03T19:51:15.276+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:51:15.278+0000] {logging_mixin.py:190} INFO - Error importing functions from hanger_line_transform.py: No module named 'hanger_line_transform'
+[2025-09-03T19:51:15.287+0000] {processor.py:925} INFO - DAG(s) 'hanger_line_daily_transform' retrieved from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:51:15.315+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.315+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:51:15.344+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:15.344+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
+[2025-09-03T19:51:15.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.101 seconds
+[2025-09-03T19:51:45.908+0000] {processor.py:186} INFO - Started process (PID=11562) to work on /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:51:45.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_line_daily_transform.py for tasks to queue
+[2025-09-03T19:51:45.913+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:45.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:51:45.917+0000] {logging_mixin.py:190} INFO - Error importing functions from hanger_line_transform.py: No module named 'hanger_line_transform'
+[2025-09-03T19:51:45.929+0000] {processor.py:925} INFO - DAG(s) 'hanger_line_daily_transform' retrieved from /opt/airflow/dags/hanger_line_daily_transform.py
+[2025-09-03T19:51:45.964+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:45.964+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:51:46.003+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.003+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_line_daily_transform to 2025-09-01 21:00:00+00:00, run_after=2025-09-02 21:00:00+00:00
+[2025-09-03T19:51:46.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_line_daily_transform.py took 0.129 seconds
