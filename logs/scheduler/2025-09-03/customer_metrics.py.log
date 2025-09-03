@@ -4744,3 +4744,129 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'cosmos'
 [2025-09-03T19:51:31.784+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
 [2025-09-03T19:51:31.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.038 seconds
+[2025-09-03T21:29:10.344+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:29:10.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:29:10.349+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:10.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:29:10.358+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:10.356+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:29:10.359+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:29:10.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.067 seconds
+[2025-09-03T21:29:41.133+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:29:41.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:29:41.137+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:41.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:29:41.146+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:41.145+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:29:41.147+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:29:41.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.054 seconds
+[2025-09-03T21:30:11.634+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:30:11.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:30:11.639+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:11.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:30:11.644+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:11.643+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:30:11.645+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:30:11.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.042 seconds
+[2025-09-03T21:30:42.079+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:30:42.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:30:42.084+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:42.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:30:42.093+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:42.091+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:30:42.094+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:30:42.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.053 seconds
+[2025-09-03T21:31:12.354+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:31:12.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:31:12.357+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:12.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:31:12.363+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:12.362+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:31:12.365+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:31:12.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.040 seconds
+[2025-09-03T21:31:42.982+0000] {processor.py:186} INFO - Started process (PID=720) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:31:42.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:31:42.985+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:42.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:31:42.994+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:42.992+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:31:42.995+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:31:43.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.055 seconds
+[2025-09-03T21:32:13.900+0000] {processor.py:186} INFO - Started process (PID=826) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:32:13.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:32:13.906+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:13.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:32:13.915+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:13.913+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:32:13.917+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:32:13.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.074 seconds
+[2025-09-03T21:32:44.269+0000] {processor.py:186} INFO - Started process (PID=932) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:32:44.271+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:32:44.273+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:44.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:32:44.282+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:44.279+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:32:44.283+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:32:44.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.049 seconds
+[2025-09-03T21:33:14.825+0000] {processor.py:186} INFO - Started process (PID=1044) to work on /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:33:14.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/customer_metrics.py for tasks to queue
+[2025-09-03T21:33:14.828+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:33:14.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:33:14.832+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:33:14.831+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/customer_metrics.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/customer_metrics.py", line 3, in <module>
+    from cosmos.airflow.task_group import DbtTaskGroup
+ModuleNotFoundError: No module named 'cosmos'
+[2025-09-03T21:33:14.832+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/customer_metrics.py
+[2025-09-03T21:33:14.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/customer_metrics.py took 0.048 seconds

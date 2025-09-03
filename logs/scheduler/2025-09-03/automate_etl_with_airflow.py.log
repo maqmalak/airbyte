@@ -1243,3 +1243,129 @@
 [2025-09-03T19:51:46.444+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:46.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
 [2025-09-03T19:51:46.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
 [2025-09-03T19:51:46.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.432 seconds
+[2025-09-03T21:29:10.853+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:29:10.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:29:10.860+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:10.859+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:29:10.867+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:10.865+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:29:10.868+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:29:10.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.060 seconds
+[2025-09-03T21:29:41.332+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:29:41.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:29:41.344+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:41.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:29:41.352+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:41.351+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:29:41.354+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:29:41.391+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.067 seconds
+[2025-09-03T21:30:11.822+0000] {processor.py:186} INFO - Started process (PID=425) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:30:11.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:30:11.825+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:11.824+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:30:11.829+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:11.828+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:30:11.830+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:30:11.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.039 seconds
+[2025-09-03T21:30:42.281+0000] {processor.py:186} INFO - Started process (PID=531) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:30:42.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:30:42.284+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:42.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:30:42.291+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:42.289+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:30:42.292+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:30:42.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.046 seconds
+[2025-09-03T21:31:12.561+0000] {processor.py:186} INFO - Started process (PID=637) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:31:12.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:31:12.564+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:12.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:31:12.573+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:12.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:31:12.573+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:31:12.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.044 seconds
+[2025-09-03T21:31:43.229+0000] {processor.py:186} INFO - Started process (PID=743) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:31:43.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:31:43.232+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:43.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:31:43.248+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:43.244+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:31:43.250+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:31:43.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.060 seconds
+[2025-09-03T21:32:14.251+0000] {processor.py:186} INFO - Started process (PID=849) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:32:14.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:32:14.256+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:14.256+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:32:14.269+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:14.265+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:32:14.271+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:32:14.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.079 seconds
+[2025-09-03T21:32:44.512+0000] {processor.py:186} INFO - Started process (PID=961) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:32:44.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:32:44.515+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:44.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:32:44.522+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:44.520+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:32:44.526+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:32:44.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.053 seconds
+[2025-09-03T21:33:15.268+0000] {processor.py:186} INFO - Started process (PID=1067) to work on /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:33:15.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/automate_etl_with_airflow.py for tasks to queue
+[2025-09-03T21:33:15.272+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:33:15.272+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:33:15.282+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:33:15.279+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/automate_etl_with_airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/automate_etl_with_airflow.py", line 6, in <module>
+    from airflow.providers.microsoft.mssql.hooks.mssql import MsSqlHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.mssql'
+[2025-09-03T21:33:15.284+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/automate_etl_with_airflow.py
+[2025-09-03T21:33:15.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/automate_etl_with_airflow.py took 0.065 seconds

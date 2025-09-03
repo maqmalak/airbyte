@@ -1,34 +1,44 @@
 
-
+dask
+duckdb
+distributed
+redis
 fsspec==2025.9.0
 dask==2025.7.0
 distributed==2025.7.0
 s3fs==2025.9.0
 protobuf==4.21.12
-
-duckdb
-redis
-boto3
-psycopg2-binary
-apache-airflow-providers-amazon[s3fs]
-sqlalchemy-redshift
-apache-airflow-providers-redis
-apache-airflow-providers-common-sql
-apache-airflow-providers-microsoft-mssql
-apache-airflow-providers-postgres
-apache-airflow-providers-mysql
-asyncpg
-faker
-pyodbc
-pandas
-pendulum
-sqlalchemy
-cx-Oracle==8.3.0
-pymssql==2.3.1
-PyMySQL==1.0.2
-mysql-connector-python==8.1.0
-# Additional dependencies for Spark integration
-pyspark==3.5.0
-py4j
-
 apache-airflow-providers-airbyte==3.6.0
+
+# fsspec==2025.9.0
+# dask==2025.7.0
+# distributed==2025.7.0
+# s3fs==2025.9.0
+# protobuf==4.21.12
+
+# duckdb
+# redis
+# boto3
+# psycopg2-binary
+# apache-airflow-providers-amazon[s3fs]
+# sqlalchemy-redshift
+# apache-airflow-providers-redis
+# apache-airflow-providers-common-sql
+# apache-airflow-providers-microsoft-mssql
+# apache-airflow-providers-postgres
+# apache-airflow-providers-mysql
+# asyncpg
+# faker
+# pyodbc
+# pandas
+# pendulum
+# sqlalchemy
+# cx-Oracle==8.3.0
+# pymssql==2.3.1
+# PyMySQL==1.0.2
+# mysql-connector-python==8.1.0
+# # Additional dependencies for Spark integration
+# pyspark==3.5.0
+# py4j
+
+# apache-airflow-providers-airbyte==3.6.0

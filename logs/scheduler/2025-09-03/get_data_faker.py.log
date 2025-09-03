@@ -1749,3 +1749,129 @@
 [2025-09-03T19:51:47.014+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:47.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-03T19:51:47.043+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:51:47.043+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:50:00+00:00, run_after=2025-09-03 19:51:00+00:00
 [2025-09-03T19:51:47.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.169 seconds
+[2025-09-03T21:29:11.818+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:29:11.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:29:11.821+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:11.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:29:11.825+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:11.824+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:29:11.827+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:29:11.858+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.046 seconds
+[2025-09-03T21:29:42.246+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:29:42.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:29:42.253+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:42.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:29:42.263+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:29:42.261+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:29:42.264+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:29:42.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.056 seconds
+[2025-09-03T21:30:12.708+0000] {processor.py:186} INFO - Started process (PID=490) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:30:12.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:30:12.713+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:12.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:30:12.727+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:12.725+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:30:12.728+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:30:12.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.063 seconds
+[2025-09-03T21:30:43.097+0000] {processor.py:186} INFO - Started process (PID=596) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:30:43.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:30:43.100+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:43.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:30:43.108+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:30:43.105+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:30:43.109+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:30:43.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.044 seconds
+[2025-09-03T21:31:13.658+0000] {processor.py:186} INFO - Started process (PID=702) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:31:13.660+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:31:13.661+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:13.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:31:13.667+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:13.663+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:31:13.668+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:31:13.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.040 seconds
+[2025-09-03T21:31:44.505+0000] {processor.py:186} INFO - Started process (PID=814) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:31:44.507+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:31:44.510+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:44.509+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:31:44.519+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:31:44.516+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:31:44.521+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:31:44.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.059 seconds
+[2025-09-03T21:32:15.991+0000] {processor.py:186} INFO - Started process (PID=922) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:32:15.993+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:32:15.995+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:15.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:32:16.003+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:16.001+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:32:16.004+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:32:16.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.053 seconds
+[2025-09-03T21:32:46.578+0000] {processor.py:186} INFO - Started process (PID=1026) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:32:46.579+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:32:46.581+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:46.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:32:46.588+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:32:46.586+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:32:46.589+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:32:46.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.050 seconds
+[2025-09-03T21:33:17.327+0000] {processor.py:186} INFO - Started process (PID=1134) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:33:17.329+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T21:33:17.331+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:33:17.331+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:33:17.338+0000] {logging_mixin.py:190} INFO - [2025-09-03T21:33:17.336+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/get_data_faker.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_data_faker.py", line 1, in <module>
+    from faker import Faker
+ModuleNotFoundError: No module named 'faker'
+[2025-09-03T21:33:17.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T21:33:17.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.066 seconds

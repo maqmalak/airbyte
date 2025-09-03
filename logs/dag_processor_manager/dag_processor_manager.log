@@ -77606,3 +77606,279 @@ File Path                                             PID    Runtime      # DAGs
 /opt/airflow/dags/test/test_line.py                                            0           0  0.04s           2025-09-03T19:51:46                       3
 ================================================================================
 [2025-09-03T19:52:01.178+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-09-03T21:29:09.873+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-09-03T21:29:09.876+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-09-03T21:29:09.879+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-09-03T21:29:09.881+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-09-03T21:29:10.015+0000] {manager.py:824} INFO - There are 20 files in /opt/airflow/dags
+[2025-09-03T21:29:10.361+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/ssg_erp_op.py                                                0           0                                                   0
+/opt/airflow/dags/hanger_test.py                                               0           0                                                   0
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           0                                                   0
+/opt/airflow/dags/hanger_line_daily_transform.py                               0           0                                                   0
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0                                                   0
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    0           0                                                   0
+/opt/airflow/dags/get_data_faker.py                                            0           0                                                   0
+/opt/airflow/dags/get_data_api.py                                              0           0                                                   0
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0                                                   0
+/opt/airflow/dags/db_utils.py                                                  0           0                                                   0
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0                                                   0
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   0           0                                                   0
+/opt/airflow/dags/hanger_lane.py                                               0           0                                                   0
+/opt/airflow/dags/ssg_gl_etl.py                                                0           0                                                   0
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0           0                                                   0
+/opt/airflow/dags/customer_metrics.py                   193  0.03s             0           0                                                   0
+/opt/airflow/dags/generate_data.py                      190  0.14s             0           0                                                   0
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0                                                   0
+/opt/airflow/dags/test/bashoperator.py                                         0           0                                                   0
+/opt/airflow/dags/test/test_line.py                                            0           0                                                   0
+================================================================================
+[2025-09-03T21:29:10.488+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:29:10.557+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:29:10.637+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:29:41.133+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  1.05s           2025-09-03T21:29:11                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.18s           2025-09-03T21:29:11                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.16s           2025-09-03T21:29:10                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.15s           2025-09-03T21:29:11                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.15s           2025-09-03T21:29:11                      12
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.14s           2025-09-03T21:29:11                       3
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.13s           2025-09-03T21:29:11                      12
+/opt/airflow/dags/get_data_api.py                                              1           0  0.11s           2025-09-03T21:29:11                      12
+/opt/airflow/dags/customer_metrics.py                   296  0.02s             0           1  0.09s           2025-09-03T21:29:10                       5
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.08s           2025-09-03T21:29:10                       3
+/opt/airflow/dags/db_utils.py                                                  0           0  0.07s           2025-09-03T21:29:11                       3
+/opt/airflow/dags/hanger_lane.py                        299  0.00s             0          -1  0.07s           2025-09-03T21:29:10                       0
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.07s           2025-09-03T21:29:11                       3
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.07s           2025-09-03T21:29:10                       0
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.06s           2025-09-03T21:29:11                       3
+/opt/airflow/dags/test/test_line.py                                            0           0  0.06s           2025-09-03T21:29:11                       3
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.05s           2025-09-03T21:29:11                       3
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.05s           2025-09-03T21:29:11                       3
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.05s           2025-09-03T21:29:10                       0
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.05s           2025-09-03T21:29:11                       3
+================================================================================
+[2025-09-03T21:29:41.199+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:29:41.242+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:29:41.304+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:30:11.648+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  0.50s           2025-09-03T21:29:42                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.19s           2025-09-03T21:29:41                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.16s           2025-09-03T21:29:41                      12
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.15s           2025-09-03T21:29:42                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.15s           2025-09-03T21:29:41                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.15s           2025-09-03T21:29:42                      12
+/opt/airflow/dags/get_data_api.py                                              1           0  0.12s           2025-09-03T21:29:42                      12
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.09s           2025-09-03T21:29:41                       5
+/opt/airflow/dags/customer_metrics.py                   402  0.02s             0           1  0.07s           2025-09-03T21:29:41                       5
+/opt/airflow/dags/hanger_lane.py                        405  0.01s             0          -1  0.07s           2025-09-03T21:29:41                       0
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.07s           2025-09-03T21:29:42                       5
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.06s           2025-09-03T21:29:42                       3
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.06s           2025-09-03T21:29:41                       3
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.05s           2025-09-03T21:29:42                       3
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.05s           2025-09-03T21:29:41                       0
+/opt/airflow/dags/test/test_line.py                                            0           0  0.05s           2025-09-03T21:29:41                       3
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.05s           2025-09-03T21:29:41                       3
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.05s           2025-09-03T21:29:41                       0
+/opt/airflow/dags/db_utils.py                                                  0           0  0.04s           2025-09-03T21:29:41                       3
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.04s           2025-09-03T21:29:42                       3
+================================================================================
+[2025-09-03T21:30:11.718+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:30:11.761+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:30:11.800+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:30:42.086+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  0.44s           2025-09-03T21:30:12                      12
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.17s           2025-09-03T21:30:12                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.15s           2025-09-03T21:30:12                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.15s           2025-09-03T21:30:11                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.13s           2025-09-03T21:30:12                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.13s           2025-09-03T21:30:12                      12
+/opt/airflow/dags/get_data_api.py                                              1           0  0.11s           2025-09-03T21:30:12                      12
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.09s           2025-09-03T21:30:12                       5
+/opt/airflow/dags/hanger_lane.py                        511  0.00s             0          -1  0.08s           2025-09-03T21:30:11                       0
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.06s           2025-09-03T21:30:11                       0
+/opt/airflow/dags/db_utils.py                                                  0           0  0.06s           2025-09-03T21:30:12                       3
+/opt/airflow/dags/customer_metrics.py                   508  0.02s             0           1  0.06s           2025-09-03T21:30:11                       5
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.06s           2025-09-03T21:30:11                       0
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.06s           2025-09-03T21:30:11                       5
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.05s           2025-09-03T21:30:11                       3
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.05s           2025-09-03T21:30:12                       3
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.05s           2025-09-03T21:30:12                       3
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.05s           2025-09-03T21:30:12                       3
+/opt/airflow/dags/test/test_line.py                                            0           0  0.05s           2025-09-03T21:30:12                       3
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.04s           2025-09-03T21:30:12                       3
+================================================================================
+[2025-09-03T21:30:42.149+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:30:42.186+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:30:42.246+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:31:12.363+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  0.39s           2025-09-03T21:30:43                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.14s           2025-09-03T21:30:42                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.13s           2025-09-03T21:30:42                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.11s           2025-09-03T21:30:42                      12
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.11s           2025-09-03T21:30:43                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.10s           2025-09-03T21:30:42                      12
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.10s           2025-09-03T21:30:42                       5
+/opt/airflow/dags/get_data_api.py                                              1           0  0.09s           2025-09-03T21:30:43                      12
+/opt/airflow/dags/hanger_lane.py                        617  0.00s             0          -1  0.07s           2025-09-03T21:30:42                       0
+/opt/airflow/dags/customer_metrics.py                   614  0.02s             0           1  0.07s           2025-09-03T21:30:42                       5
+/opt/airflow/dags/test/test_line.py                                            0           0  0.06s           2025-09-03T21:30:42                       3
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.06s           2025-09-03T21:30:43                       5
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.06s           2025-09-03T21:30:42                       3
+/opt/airflow/dags/db_utils.py                                                  0           0  0.05s           2025-09-03T21:30:42                       3
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.05s           2025-09-03T21:30:42                       0
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.05s           2025-09-03T21:30:42                       3
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.05s           2025-09-03T21:30:42                       3
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.05s           2025-09-03T21:30:42                       3
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.05s           2025-09-03T21:30:42                       3
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.04s           2025-09-03T21:30:42                       0
+================================================================================
+[2025-09-03T21:31:12.417+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:31:12.464+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:31:12.533+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:31:42.983+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  0.41s           2025-09-03T21:31:13                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.18s           2025-09-03T21:31:12                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.15s           2025-09-03T21:31:12                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.15s           2025-09-03T21:31:13                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.14s           2025-09-03T21:31:13                      12
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.14s           2025-09-03T21:31:13                      12
+/opt/airflow/dags/get_data_api.py                                              1           0  0.12s           2025-09-03T21:31:13                      12
+/opt/airflow/dags/test/test_line.py                                            0           0  0.08s           2025-09-03T21:31:12                       3
+/opt/airflow/dags/db_utils.py                                                  0           0  0.06s           2025-09-03T21:31:12                       3
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.06s           2025-09-03T21:31:12                       5
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.06s           2025-09-03T21:31:12                       0
+/opt/airflow/dags/hanger_lane.py                        723  0.00s             0          -1  0.06s           2025-09-03T21:31:12                       0
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.06s           2025-09-03T21:31:13                       5
+/opt/airflow/dags/customer_metrics.py                   720  0.01s             0           1  0.06s           2025-09-03T21:31:12                       5
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.06s           2025-09-03T21:31:13                       3
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.06s           2025-09-03T21:31:12                       3
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.05s           2025-09-03T21:31:12                       0
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.05s           2025-09-03T21:31:13                       3
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.05s           2025-09-03T21:31:13                       3
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.04s           2025-09-03T21:31:13                       3
+================================================================================
+[2025-09-03T21:31:43.059+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:31:43.117+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:31:43.203+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:32:13.903+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  0.54s           2025-09-03T21:31:44                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.36s           2025-09-03T21:31:43                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.27s           2025-09-03T21:31:43                      12
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.20s           2025-09-03T21:31:44                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.20s           2025-09-03T21:31:44                      12
+/opt/airflow/dags/get_data_api.py                                              1           0  0.16s           2025-09-03T21:31:44                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.13s           2025-09-03T21:31:43                      12
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.09s           2025-09-03T21:31:44                       5
+/opt/airflow/dags/hanger_lane.py                        829  0.00s             0          -1  0.08s           2025-09-03T21:31:43                       0
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.08s           2025-09-03T21:31:43                       5
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.08s           2025-09-03T21:31:43                       3
+/opt/airflow/dags/customer_metrics.py                   826  0.02s             0           1  0.07s           2025-09-03T21:31:43                       5
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.07s           2025-09-03T21:31:43                       0
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.07s           2025-09-03T21:31:44                       3
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.06s           2025-09-03T21:31:44                       3
+/opt/airflow/dags/db_utils.py                                                  0           0  0.06s           2025-09-03T21:31:43                       3
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.06s           2025-09-03T21:31:43                       0
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.06s           2025-09-03T21:31:44                       3
+/opt/airflow/dags/test/test_line.py                                            0           0  0.05s           2025-09-03T21:31:43                       3
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.05s           2025-09-03T21:31:44                       3
+================================================================================
+[2025-09-03T21:32:14.000+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:32:14.082+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:32:14.206+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:32:44.277+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  0.58s           2025-09-03T21:32:15                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.40s           2025-09-03T21:32:15                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.38s           2025-09-03T21:32:15                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.32s           2025-09-03T21:32:14                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.21s           2025-09-03T21:32:15                      12
+/opt/airflow/dags/get_data_api.py                                              1           0  0.15s           2025-09-03T21:32:16                      12
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.15s           2025-09-03T21:32:15                      12
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.11s           2025-09-03T21:32:14                       5
+/opt/airflow/dags/hanger_lane.py                        935  0.00s             0          -1  0.11s           2025-09-03T21:32:14                       0
+/opt/airflow/dags/test/test_line.py                                            0           0  0.10s           2025-09-03T21:32:14                       3
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.10s           2025-09-03T21:32:14                       0
+/opt/airflow/dags/customer_metrics.py                   932  0.02s             0           1  0.10s           2025-09-03T21:32:13                       5
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.09s           2025-09-03T21:32:14                       3
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.09s           2025-09-03T21:32:14                       0
+/opt/airflow/dags/db_utils.py                                                  0           0  0.08s           2025-09-03T21:32:14                       3
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.08s           2025-09-03T21:32:15                       3
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.07s           2025-09-03T21:32:16                       5
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.07s           2025-09-03T21:32:15                       3
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.07s           2025-09-03T21:32:15                       3
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.07s           2025-09-03T21:32:15                       3
+================================================================================
+[2025-09-03T21:32:44.341+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:32:44.399+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:32:44.473+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:33:14.824+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/generate_data.py                                             1           0  0.45s           2025-09-03T21:32:46                      12
+/opt/airflow/dags/ssg_erp_op.py                                                1           0  0.30s           2025-09-03T21:32:46                      12
+/opt/airflow/dags/ssg_gl_etl.py                                                1           0  0.29s           2025-09-03T21:32:46                      12
+/opt/airflow/dags/dynamic_mssql_mssql_etl.py                                   1           0  0.27s           2025-09-03T21:32:46                      12
+/opt/airflow/dags/hanger_line_daily_transform.py                               1           0  0.15s           2025-09-03T21:32:44                      12
+/opt/airflow/dags/hanger_lanes_to_pg_etl.py                                    1           0  0.15s           2025-09-03T21:32:46                      12
+/opt/airflow/dags/get_data_api.py                                              1           0  0.12s           2025-09-03T21:32:46                      12
+/opt/airflow/dags/automate_etl_with_airflow.py                                 0           1  0.07s           2025-09-03T21:32:44                       5
+/opt/airflow/dags/hanger_lane.py                       1047  0.00s             0          -1  0.07s           2025-09-03T21:32:44                       0
+/opt/airflow/dags/get_data_faker.py                                            0           1  0.07s           2025-09-03T21:32:46                       5
+/opt/airflow/dags/jdbc-drivers/postgresql-42.7.3.jar                           0           0  0.07s           2025-09-03T21:32:44                       3
+/opt/airflow/dags/customer_metrics.py                  1044  0.01s             0           1  0.07s           2025-09-03T21:32:44                       5
+/opt/airflow/dags/hanger_lane_updated_v2.py                                    0          -1  0.06s           2025-09-03T21:32:44                       0
+/opt/airflow/dags/db_utils.py                                                  0           0  0.06s           2025-09-03T21:32:44                       3
+/opt/airflow/dags/hanger_test.py                                               0          -1  0.05s           2025-09-03T21:32:44                       0
+/opt/airflow/dags/mssql_gl_to_pg_etl.py                                        0           0  0.05s           2025-09-03T21:32:46                       3
+/opt/airflow/dags/test/bashoperator.py                                         0           0  0.05s           2025-09-03T21:32:46                       3
+/opt/airflow/dags/test/test_line.py                                            0           0  0.05s           2025-09-03T21:32:44                       3
+/opt/airflow/dags/ssg_erp_etl.py                                               0           0  0.05s           2025-09-03T21:32:46                       3
+/opt/airflow/dags/etl_pipeline_hangerlines.py                                  0           0  0.05s           2025-09-03T21:32:46                       3
+================================================================================
+[2025-09-03T21:33:15.050+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane.py exited with return code 1.
+[2025-09-03T21:33:15.124+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_lane_updated_v2.py exited with return code 1.
+[2025-09-03T21:33:15.226+0000] {manager.py:1143} ERROR - Processor for /opt/airflow/dags/hanger_test.py exited with return code 1.
+[2025-09-03T21:33:32.485+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
