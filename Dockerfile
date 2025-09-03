@@ -64,7 +64,7 @@ ENV PYTHONPATH=/opt/airflow/include:/opt/airbyte-docker/airflow/scripts:$PYTHONP
 
 # Upgrade pip and install dependencies with retry options
 RUN pip install --upgrade pip && \
-    pip install --no-cache-dir --timeout 1000 --retries 10 -r /opt/airbyte-docker/airflow/scripts/requirements.txt
+    pip install --no-cache-dir --timeout 1000 --retries 10 -r /opt/airbyte-docker/airflow/include/scripts/requirements.txt
 
 # FROM apache/airflow:2.11.0
 

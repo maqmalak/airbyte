@@ -1406,3 +1406,73 @@
 [2025-09-03T19:26:39.069+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:39.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-03T19:26:39.091+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:39.091+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:25:00+00:00, run_after=2025-09-03 19:26:00+00:00
 [2025-09-03T19:26:39.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.286 seconds
+[2025-09-03T19:27:09.887+0000] {processor.py:186} INFO - Started process (PID=6492) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:27:09.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:27:09.892+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:09.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:27:09.984+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:27:10.007+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:10.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:27:10.038+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:10.038+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:26:00+00:00, run_after=2025-09-03 19:27:00+00:00
+[2025-09-03T19:27:10.053+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.171 seconds
+[2025-09-03T19:27:40.538+0000] {processor.py:186} INFO - Started process (PID=6599) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:27:40.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:27:40.543+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.543+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:27:40.634+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:27:40.664+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:27:40.700+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.699+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:26:00+00:00, run_after=2025-09-03 19:27:00+00:00
+[2025-09-03T19:27:40.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.185 seconds
+[2025-09-03T19:28:11.141+0000] {processor.py:186} INFO - Started process (PID=6706) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:28:11.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:28:11.145+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:28:11.229+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:28:11.258+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:28:11.296+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.296+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:27:00+00:00, run_after=2025-09-03 19:28:00+00:00
+[2025-09-03T19:28:11.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.178 seconds
+[2025-09-03T19:28:41.796+0000] {processor.py:186} INFO - Started process (PID=6813) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:28:41.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:28:41.799+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:28:41.890+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:28:41.912+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.912+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:28:41.936+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.936+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:27:00+00:00, run_after=2025-09-03 19:28:00+00:00
+[2025-09-03T19:28:41.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.165 seconds
+[2025-09-03T19:29:12.335+0000] {processor.py:186} INFO - Started process (PID=6919) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:29:12.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:29:12.338+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:29:12.414+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:29:12.439+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:29:12.475+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.475+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:28:00+00:00, run_after=2025-09-03 19:29:00+00:00
+[2025-09-03T19:29:12.510+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.181 seconds
+[2025-09-03T19:29:42.983+0000] {processor.py:186} INFO - Started process (PID=7026) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:29:42.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:29:42.987+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:42.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:29:43.066+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:29:43.089+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:43.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:29:43.116+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:43.116+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:28:00+00:00, run_after=2025-09-03 19:29:00+00:00
+[2025-09-03T19:29:43.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.161 seconds
+[2025-09-03T19:30:13.611+0000] {processor.py:186} INFO - Started process (PID=7132) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:30:13.613+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:30:13.615+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.615+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:30:13.703+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:30:13.724+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:30:13.750+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.750+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:29:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:30:13.774+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.170 seconds
+[2025-09-03T19:30:44.409+0000] {processor.py:186} INFO - Started process (PID=7239) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:30:44.410+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:30:44.413+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.413+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:30:44.495+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:30:44.517+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.517+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:30:44.542+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.542+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:29:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:30:44.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.158 seconds
+[2025-09-03T19:31:15.160+0000] {processor.py:186} INFO - Started process (PID=7346) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:31:15.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:31:15.163+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:31:15.274+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:31:15.309+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:31:15.348+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.348+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:30:00+00:00, run_after=2025-09-03 19:31:00+00:00
+[2025-09-03T19:31:15.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.219 seconds
+[2025-09-03T19:31:45.886+0000] {processor.py:186} INFO - Started process (PID=7453) to work on /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:31:45.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_faker.py for tasks to queue
+[2025-09-03T19:31:45.889+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:45.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:31:45.986+0000] {processor.py:925} INFO - DAG(s) 'sales_data_etl' retrieved from /opt/airflow/dags/get_data_faker.py
+[2025-09-03T19:31:46.008+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:46.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:31:46.038+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:46.038+0000] {dag.py:4180} INFO - Setting next_dagrun for sales_data_etl to 2025-09-03 19:30:00+00:00, run_after=2025-09-03 19:31:00+00:00
+[2025-09-03T19:31:46.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_faker.py took 0.179 seconds

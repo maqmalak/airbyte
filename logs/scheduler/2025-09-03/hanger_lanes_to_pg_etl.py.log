@@ -1406,3 +1406,73 @@
 [2025-09-03T19:26:38.842+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:38.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-03T19:26:39.011+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:39.010+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:10:00+00:00, run_after=2025-09-03 19:20:00+00:00
 [2025-09-03T19:26:39.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.251 seconds
+[2025-09-03T19:27:09.817+0000] {processor.py:186} INFO - Started process (PID=6487) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:27:09.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:27:09.821+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:09.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:27:09.835+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:27:09.866+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:09.865+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:27:09.887+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:09.887+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:10:00+00:00, run_after=2025-09-03 19:20:00+00:00
+[2025-09-03T19:27:09.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.097 seconds
+[2025-09-03T19:27:40.493+0000] {processor.py:186} INFO - Started process (PID=6594) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:27:40.495+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:27:40.498+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.497+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:27:40.513+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:27:40.535+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.535+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:27:40.569+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.569+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:10:00+00:00, run_after=2025-09-03 19:20:00+00:00
+[2025-09-03T19:27:40.592+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.106 seconds
+[2025-09-03T19:28:11.121+0000] {processor.py:186} INFO - Started process (PID=6701) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:28:11.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:28:11.125+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:28:11.147+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:28:11.172+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.171+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:28:11.197+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.197+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:10:00+00:00, run_after=2025-09-03 19:20:00+00:00
+[2025-09-03T19:28:11.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.104 seconds
+[2025-09-03T19:28:41.716+0000] {processor.py:186} INFO - Started process (PID=6808) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:28:41.717+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:28:41.720+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:28:41.737+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:28:41.766+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:28:41.789+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.789+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:10:00+00:00, run_after=2025-09-03 19:20:00+00:00
+[2025-09-03T19:28:41.811+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.102 seconds
+[2025-09-03T19:29:12.290+0000] {processor.py:186} INFO - Started process (PID=6914) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:29:12.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:29:12.294+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:29:12.308+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:29:12.329+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.328+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:29:12.354+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.354+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:10:00+00:00, run_after=2025-09-03 19:20:00+00:00
+[2025-09-03T19:29:12.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.090 seconds
+[2025-09-03T19:29:42.940+0000] {processor.py:186} INFO - Started process (PID=7021) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:29:42.941+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:29:42.943+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:42.943+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:29:42.962+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:29:42.986+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:42.986+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:29:43.010+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:43.010+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:10:00+00:00, run_after=2025-09-03 19:20:00+00:00
+[2025-09-03T19:29:43.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.093 seconds
+[2025-09-03T19:30:13.596+0000] {processor.py:186} INFO - Started process (PID=7129) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:30:13.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:30:13.600+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:30:13.614+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:30:13.646+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:30:13.678+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.677+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:20:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:30:13.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.110 seconds
+[2025-09-03T19:30:44.349+0000] {processor.py:186} INFO - Started process (PID=7234) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:30:44.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:30:44.353+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.353+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:30:44.371+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:30:44.395+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:30:44.426+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.426+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:20:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:30:44.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.107 seconds
+[2025-09-03T19:31:15.093+0000] {processor.py:186} INFO - Started process (PID=7341) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:31:15.094+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:31:15.096+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:31:15.109+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:31:15.128+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:31:15.152+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.152+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:20:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:31:15.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.087 seconds
+[2025-09-03T19:31:45.857+0000] {processor.py:186} INFO - Started process (PID=7448) to work on /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:31:45.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/hanger_lanes_to_pg_etl.py for tasks to queue
+[2025-09-03T19:31:45.862+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:45.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:31:45.878+0000] {processor.py:925} INFO - DAG(s) 'hanger_data_mssql_to_pg_etl' retrieved from /opt/airflow/dags/hanger_lanes_to_pg_etl.py
+[2025-09-03T19:31:45.898+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:45.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:31:45.919+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:45.919+0000] {dag.py:4180} INFO - Setting next_dagrun for hanger_data_mssql_to_pg_etl to 2025-09-03 19:20:00+00:00, run_after=2025-09-03 19:30:00+00:00
+[2025-09-03T19:31:45.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/hanger_lanes_to_pg_etl.py took 0.087 seconds

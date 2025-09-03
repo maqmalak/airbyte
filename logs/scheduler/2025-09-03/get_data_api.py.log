@@ -1406,3 +1406,73 @@
 [2025-09-03T19:26:39.113+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:39.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-09-03T19:26:39.139+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:39.139+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
 [2025-09-03T19:26:39.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.203 seconds
+[2025-09-03T19:27:09.939+0000] {processor.py:186} INFO - Started process (PID=6497) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:27:09.940+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:27:09.941+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:09.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:27:09.949+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:27:09.972+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:09.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:27:09.998+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:09.998+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:27:10.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.085 seconds
+[2025-09-03T19:27:40.627+0000] {processor.py:186} INFO - Started process (PID=6604) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:27:40.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:27:40.631+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:27:40.643+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:27:40.671+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.671+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:27:40.697+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:27:40.696+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:27:40.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.093 seconds
+[2025-09-03T19:28:11.245+0000] {processor.py:186} INFO - Started process (PID=6711) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:28:11.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:28:11.249+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:28:11.261+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:28:11.287+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.287+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:28:11.313+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:11.312+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:28:11.330+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.089 seconds
+[2025-09-03T19:28:41.842+0000] {processor.py:186} INFO - Started process (PID=6818) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:28:41.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:28:41.846+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:28:41.858+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:28:41.885+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.885+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:28:41.915+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:28:41.915+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:28:41.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.104 seconds
+[2025-09-03T19:29:12.403+0000] {processor.py:186} INFO - Started process (PID=6924) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:29:12.404+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:29:12.406+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:29:12.413+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:29:12.436+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:29:12.461+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:12.461+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:29:12.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.092 seconds
+[2025-09-03T19:29:43.060+0000] {processor.py:186} INFO - Started process (PID=7031) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:29:43.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:29:43.064+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:43.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:29:43.076+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:29:43.102+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:43.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:29:43.137+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:29:43.137+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:29:43.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.103 seconds
+[2025-09-03T19:30:13.731+0000] {processor.py:186} INFO - Started process (PID=7137) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:30:13.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:30:13.735+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:30:13.747+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:30:13.782+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:30:13.803+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:13.803+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:30:13.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.090 seconds
+[2025-09-03T19:30:44.484+0000] {processor.py:186} INFO - Started process (PID=7244) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:30:44.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:30:44.488+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:30:44.498+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:30:44.523+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.523+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:30:44.550+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:30:44.550+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:30:44.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.093 seconds
+[2025-09-03T19:31:15.208+0000] {processor.py:186} INFO - Started process (PID=7351) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:31:15.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:31:15.214+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:31:15.225+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:31:15.255+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:31:15.297+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:15.297+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:31:15.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.124 seconds
+[2025-09-03T19:31:45.968+0000] {processor.py:186} INFO - Started process (PID=7458) to work on /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:31:45.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/get_data_api.py for tasks to queue
+[2025-09-03T19:31:45.971+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:45.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:31:45.980+0000] {processor.py:925} INFO - DAG(s) 'user_automation' retrieved from /opt/airflow/dags/get_data_api.py
+[2025-09-03T19:31:46.002+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:46.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-09-03T19:31:46.030+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:31:46.030+0000] {dag.py:4180} INFO - Setting next_dagrun for user_automation to 2025-09-03 18:01:00+00:00, run_after=2025-09-03 19:01:00+00:00
+[2025-09-03T19:31:46.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/get_data_api.py took 0.092 seconds
