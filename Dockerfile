@@ -59,7 +59,7 @@ USER airflow
 
 
 # Copy and install Python dependencies
-COPY include/scripts/requirements.txt /opt/airbyte-docker/airflow/scripts/requirements.txt
+# COPY include/scripts/requirements.txt /opt/airbyte-docker/airflow/scripts/requirements.txt
 ENV PYTHONPATH=/opt/airflow/include:/opt/airbyte-docker/airflow/scripts:$PYTHONPATH
 
 # Upgrade pip and install dependencies with retry options

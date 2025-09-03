@@ -238,3 +238,763 @@
 [2025-09-03T18:03:40.285+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:03:40.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
 [2025-09-03T18:03:40.288+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
 [2025-09-03T18:03:40.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:04:10.948+0000] {processor.py:186} INFO - Started process (PID=1977) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:04:10.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:04:10.952+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:04:10.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:04:10.956+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:04:10.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T18:04:41.853+0000] {processor.py:186} INFO - Started process (PID=2084) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:04:41.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:04:41.856+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:04:41.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:04:41.860+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:04:41.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:05:12.678+0000] {processor.py:186} INFO - Started process (PID=2191) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:05:12.680+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:05:12.683+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:05:12.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:05:12.688+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:05:12.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T18:05:43.495+0000] {processor.py:186} INFO - Started process (PID=2298) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:05:43.496+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:05:43.498+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:05:43.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:05:43.502+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:05:43.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:06:14.391+0000] {processor.py:186} INFO - Started process (PID=2405) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:06:14.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:06:14.397+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:06:14.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:06:14.400+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:06:14.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T18:06:45.501+0000] {processor.py:186} INFO - Started process (PID=2514) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:06:45.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:06:45.504+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:06:45.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:06:45.507+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:06:45.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.024 seconds
+[2025-09-03T18:07:16.319+0000] {processor.py:186} INFO - Started process (PID=2619) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:07:16.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:07:16.322+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:07:16.322+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:07:16.324+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:07:16.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.023 seconds
+[2025-09-03T18:07:47.313+0000] {processor.py:186} INFO - Started process (PID=2726) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:07:47.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:07:47.316+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:07:47.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:07:47.319+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:07:47.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T18:08:18.460+0000] {processor.py:186} INFO - Started process (PID=2835) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:08:18.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:08:18.463+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:08:18.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:08:18.465+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:08:18.483+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T18:08:49.542+0000] {processor.py:186} INFO - Started process (PID=2940) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:08:49.543+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:08:49.546+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:08:49.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:08:49.548+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:08:49.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T18:09:20.883+0000] {processor.py:186} INFO - Started process (PID=3047) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:09:20.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:09:20.888+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:09:20.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:09:20.891+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:09:20.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T18:09:51.290+0000] {processor.py:186} INFO - Started process (PID=3154) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:09:51.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:09:51.294+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:09:51.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:09:51.297+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:09:51.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:10:21.858+0000] {processor.py:186} INFO - Started process (PID=3261) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:10:21.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:10:21.861+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:10:21.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:10:21.866+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:10:21.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:10:52.796+0000] {processor.py:186} INFO - Started process (PID=3368) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:10:52.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:10:52.800+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:10:52.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:10:52.803+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:10:52.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T18:11:23.916+0000] {processor.py:186} INFO - Started process (PID=3475) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:11:23.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:11:23.920+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:11:23.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:11:23.928+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:11:23.943+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:11:54.981+0000] {processor.py:186} INFO - Started process (PID=3582) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:11:54.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:11:54.984+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:11:54.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:11:54.988+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:11:55.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:12:26.266+0000] {processor.py:186} INFO - Started process (PID=3697) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:12:26.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:12:26.269+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:12:26.269+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:12:26.272+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:12:26.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T18:12:57.665+0000] {processor.py:186} INFO - Started process (PID=3802) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:12:57.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:12:57.668+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:12:57.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:12:57.671+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:12:57.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:13:27.832+0000] {processor.py:186} INFO - Started process (PID=3904) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:13:27.833+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:13:27.838+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:13:27.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:13:27.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:13:27.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.041 seconds
+[2025-09-03T18:13:58.825+0000] {processor.py:186} INFO - Started process (PID=4018) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:13:58.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:13:58.831+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:13:58.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:13:58.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:13:58.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T18:14:29.668+0000] {processor.py:186} INFO - Started process (PID=4124) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:14:29.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:14:29.670+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:14:29.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:14:29.672+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:14:29.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.022 seconds
+[2025-09-03T18:15:00.437+0000] {processor.py:186} INFO - Started process (PID=4231) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:15:00.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:15:00.442+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:15:00.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:15:00.447+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:15:00.466+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T18:15:31.103+0000] {processor.py:186} INFO - Started process (PID=4335) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:15:31.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:15:31.108+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:15:31.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:15:31.112+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:15:31.128+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T18:16:01.815+0000] {processor.py:186} INFO - Started process (PID=4442) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:16:01.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:16:01.818+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:16:01.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:16:01.823+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:16:01.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:16:32.544+0000] {processor.py:186} INFO - Started process (PID=4549) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:16:32.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:16:32.551+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:16:32.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:16:32.557+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:16:32.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.050 seconds
+[2025-09-03T18:17:03.279+0000] {processor.py:186} INFO - Started process (PID=4653) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:17:03.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:17:03.283+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:17:03.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:17:03.285+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:17:03.301+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T18:17:34.091+0000] {processor.py:186} INFO - Started process (PID=4765) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:17:34.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:17:34.095+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:17:34.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:17:34.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:17:34.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T18:18:04.843+0000] {processor.py:186} INFO - Started process (PID=4872) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:18:04.844+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:18:04.846+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:18:04.846+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:18:04.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:18:04.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T18:18:35.599+0000] {processor.py:186} INFO - Started process (PID=4977) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:18:35.600+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:18:35.604+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:18:35.603+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:18:35.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:18:35.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T18:19:06.375+0000] {processor.py:186} INFO - Started process (PID=5086) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:19:06.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:19:06.380+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:19:06.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:19:06.384+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:19:06.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:19:37.203+0000] {processor.py:186} INFO - Started process (PID=5193) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:19:37.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:19:37.207+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:19:37.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:19:37.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:19:37.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:20:08.016+0000] {processor.py:186} INFO - Started process (PID=5300) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:20:08.017+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:20:08.019+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:20:08.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:20:08.021+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:20:08.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T18:20:38.818+0000] {processor.py:186} INFO - Started process (PID=5407) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:20:38.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:20:38.823+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:20:38.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:20:38.825+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:20:38.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T18:21:09.591+0000] {processor.py:186} INFO - Started process (PID=5511) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:21:09.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:21:09.596+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:21:09.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:21:09.600+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:21:09.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T18:21:40.347+0000] {processor.py:186} INFO - Started process (PID=5618) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:21:40.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:21:40.350+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:21:40.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:21:40.355+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:21:40.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:22:11.213+0000] {processor.py:186} INFO - Started process (PID=5725) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:22:11.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:22:11.216+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:22:11.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:22:11.223+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:22:11.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T18:22:42.262+0000] {processor.py:186} INFO - Started process (PID=5832) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:22:42.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:22:42.266+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:22:42.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:22:42.270+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:22:42.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:23:13.950+0000] {processor.py:186} INFO - Started process (PID=5939) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:23:13.951+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:23:13.956+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:23:13.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:23:13.964+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:23:13.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.049 seconds
+[2025-09-03T18:23:44.388+0000] {processor.py:186} INFO - Started process (PID=6040) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:23:44.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:23:44.391+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:23:44.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:23:44.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:23:44.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T18:24:15.008+0000] {processor.py:186} INFO - Started process (PID=6153) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:24:15.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:24:15.013+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:24:15.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:24:15.017+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:24:15.040+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.040 seconds
+[2025-09-03T18:24:45.331+0000] {processor.py:186} INFO - Started process (PID=6257) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:24:45.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:24:45.336+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:24:45.336+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:24:45.340+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:24:45.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.040 seconds
+[2025-09-03T18:25:15.943+0000] {processor.py:186} INFO - Started process (PID=6366) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:25:15.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:25:15.946+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:25:15.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:25:15.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:25:15.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.024 seconds
+[2025-09-03T18:25:46.197+0000] {processor.py:186} INFO - Started process (PID=6470) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:25:46.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:25:46.201+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:25:46.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:25:46.204+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:25:46.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T18:26:16.755+0000] {processor.py:186} INFO - Started process (PID=6577) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:26:16.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:26:16.760+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:26:16.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:26:16.762+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:26:16.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T18:26:47.362+0000] {processor.py:186} INFO - Started process (PID=6684) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:26:47.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:26:47.365+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:26:47.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:26:47.367+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:26:47.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T18:27:18.138+0000] {processor.py:186} INFO - Started process (PID=6791) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:27:18.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:27:18.143+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:27:18.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:27:18.148+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:27:18.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.036 seconds
+[2025-09-03T18:27:48.764+0000] {processor.py:186} INFO - Started process (PID=6897) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:27:48.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:27:48.766+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:27:48.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:27:48.768+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:27:48.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.027 seconds
+[2025-09-03T18:28:19.444+0000] {processor.py:186} INFO - Started process (PID=7004) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:28:19.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:28:19.447+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:28:19.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:28:19.450+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:28:19.468+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:28:50.256+0000] {processor.py:186} INFO - Started process (PID=7113) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:28:50.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:28:50.260+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:28:50.260+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:28:50.263+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:28:50.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T18:29:20.856+0000] {processor.py:186} INFO - Started process (PID=7218) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:29:20.856+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:29:20.858+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:29:20.858+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:29:20.863+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:29:20.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:29:51.525+0000] {processor.py:186} INFO - Started process (PID=7325) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:29:51.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:29:51.529+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:29:51.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:29:51.534+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:29:51.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T18:30:22.199+0000] {processor.py:186} INFO - Started process (PID=7431) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:30:22.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:30:22.203+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:30:22.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:30:22.208+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:30:22.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:30:53.070+0000] {processor.py:186} INFO - Started process (PID=7539) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:30:53.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:30:53.075+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:30:53.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:30:53.080+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:30:53.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.042 seconds
+[2025-09-03T18:31:23.922+0000] {processor.py:186} INFO - Started process (PID=7646) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:31:23.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:31:23.928+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:31:23.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:31:23.932+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:31:23.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T18:31:54.850+0000] {processor.py:186} INFO - Started process (PID=7753) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:31:54.850+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:31:54.853+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:31:54.852+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:31:54.861+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:31:54.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T18:32:25.838+0000] {processor.py:186} INFO - Started process (PID=7860) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:32:25.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:32:25.843+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:32:25.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:32:25.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:32:25.863+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:32:56.606+0000] {processor.py:186} INFO - Started process (PID=7967) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:32:56.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:32:56.612+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:32:56.611+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:32:56.622+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:32:56.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.054 seconds
+[2025-09-03T18:33:27.467+0000] {processor.py:186} INFO - Started process (PID=8074) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:33:27.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:33:27.473+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:33:27.472+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:33:27.479+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:33:27.502+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.041 seconds
+[2025-09-03T18:33:58.385+0000] {processor.py:186} INFO - Started process (PID=8187) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:33:58.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:33:58.390+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:33:58.390+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:33:58.392+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:33:58.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T18:34:29.244+0000] {processor.py:186} INFO - Started process (PID=8293) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:34:29.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:34:29.249+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:34:29.248+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:34:29.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:34:29.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:35:00.181+0000] {processor.py:186} INFO - Started process (PID=8400) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:35:00.183+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:35:00.186+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:35:00.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:35:00.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:35:00.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.035 seconds
+[2025-09-03T18:35:31.048+0000] {processor.py:186} INFO - Started process (PID=8509) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:35:31.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:35:31.053+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:35:31.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:35:31.056+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:35:31.070+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T18:36:01.965+0000] {processor.py:186} INFO - Started process (PID=8613) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:36:01.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:36:01.970+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:36:01.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:36:01.975+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:36:01.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.036 seconds
+[2025-09-03T18:36:32.969+0000] {processor.py:186} INFO - Started process (PID=8720) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:36:32.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:36:32.973+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:36:32.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:36:32.977+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:36:32.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:37:04.024+0000] {processor.py:186} INFO - Started process (PID=8829) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:37:04.025+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:37:04.028+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:37:04.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:37:04.031+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:37:04.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:37:35.053+0000] {processor.py:186} INFO - Started process (PID=8934) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:37:35.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:37:35.056+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:37:35.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:37:35.059+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:37:35.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.027 seconds
+[2025-09-03T18:38:06.092+0000] {processor.py:186} INFO - Started process (PID=9041) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:38:06.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:38:06.096+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:38:06.096+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:38:06.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:38:06.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T18:38:37.104+0000] {processor.py:186} INFO - Started process (PID=9148) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:38:37.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:38:37.108+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:38:37.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:38:37.112+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:38:37.127+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T18:39:07.851+0000] {processor.py:186} INFO - Started process (PID=9257) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:39:07.853+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:39:07.856+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:39:07.856+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:39:07.862+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:39:07.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.036 seconds
+[2025-09-03T18:39:38.074+0000] {processor.py:186} INFO - Started process (PID=9362) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:39:38.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:39:38.079+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:39:38.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:39:38.084+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:39:38.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.038 seconds
+[2025-09-03T18:40:08.971+0000] {processor.py:186} INFO - Started process (PID=9469) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:40:08.972+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:40:08.974+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:40:08.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:40:08.976+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:40:08.991+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T18:40:39.581+0000] {processor.py:186} INFO - Started process (PID=9576) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:40:39.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:40:39.584+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:40:39.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:40:39.587+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:40:39.605+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:41:10.297+0000] {processor.py:186} INFO - Started process (PID=9682) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:41:10.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:41:10.301+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:41:10.301+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:41:10.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:41:10.322+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T18:41:41.068+0000] {processor.py:186} INFO - Started process (PID=9789) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:41:41.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:41:41.071+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:41:41.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:41:41.077+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:41:41.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T18:42:11.763+0000] {processor.py:186} INFO - Started process (PID=9896) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:42:11.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:42:11.766+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:42:11.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:42:11.768+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:42:11.787+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T18:42:42.444+0000] {processor.py:186} INFO - Started process (PID=10003) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:42:42.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:42:42.447+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:42:42.446+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:42:42.451+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:42:42.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.039 seconds
+[2025-09-03T18:43:13.331+0000] {processor.py:186} INFO - Started process (PID=10110) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:43:13.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:43:13.336+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:43:13.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:43:13.339+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:43:13.356+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T18:43:43.987+0000] {processor.py:186} INFO - Started process (PID=10217) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:43:43.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:43:43.991+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:43:43.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:43:43.995+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:43:44.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:44:14.739+0000] {processor.py:186} INFO - Started process (PID=10324) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:44:14.740+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:44:14.744+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:44:14.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:44:14.746+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:44:14.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:44:45.520+0000] {processor.py:186} INFO - Started process (PID=10430) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:44:45.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:44:45.525+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:44:45.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:44:45.531+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:44:45.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.044 seconds
+[2025-09-03T18:45:16.308+0000] {processor.py:186} INFO - Started process (PID=10537) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:45:16.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:45:16.314+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:45:16.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:45:16.319+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:45:16.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.041 seconds
+[2025-09-03T18:45:47.082+0000] {processor.py:186} INFO - Started process (PID=10644) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:45:47.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:45:47.086+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:45:47.086+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:45:47.090+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:45:47.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T18:46:17.773+0000] {processor.py:186} INFO - Started process (PID=10751) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:46:17.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:46:17.778+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:46:17.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:46:17.785+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:46:17.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:46:48.594+0000] {processor.py:186} INFO - Started process (PID=10860) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:46:48.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:46:48.598+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:46:48.598+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:46:48.604+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:46:48.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T18:47:19.324+0000] {processor.py:186} INFO - Started process (PID=10965) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:47:19.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:47:19.327+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:47:19.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:47:19.329+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:47:19.342+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.024 seconds
+[2025-09-03T18:47:50.105+0000] {processor.py:186} INFO - Started process (PID=11072) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:47:50.107+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:47:50.109+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:47:50.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:47:50.112+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:47:50.132+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.035 seconds
+[2025-09-03T18:48:20.839+0000] {processor.py:186} INFO - Started process (PID=11179) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:48:20.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:48:20.843+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:48:20.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:48:20.850+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:48:20.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T18:48:51.871+0000] {processor.py:186} INFO - Started process (PID=11286) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:48:51.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:48:51.876+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:48:51.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:48:51.880+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:48:51.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:49:23.057+0000] {processor.py:186} INFO - Started process (PID=11395) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:49:23.059+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:49:23.062+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:49:23.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:49:23.070+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:49:23.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.043 seconds
+[2025-09-03T18:49:53.672+0000] {processor.py:186} INFO - Started process (PID=11505) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:49:53.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:49:53.677+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:49:53.677+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:49:53.682+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:49:53.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.038 seconds
+[2025-09-03T18:50:23.827+0000] {processor.py:186} INFO - Started process (PID=11611) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:50:23.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:50:23.831+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:50:23.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:50:23.834+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:50:23.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.035 seconds
+[2025-09-03T18:50:55.735+0000] {processor.py:186} INFO - Started process (PID=11714) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:50:55.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:50:55.742+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:50:55.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:50:55.749+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:50:55.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.045 seconds
+[2025-09-03T18:51:26.883+0000] {processor.py:186} INFO - Started process (PID=11823) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:51:26.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:51:26.890+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:51:26.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:51:26.895+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:51:26.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.051 seconds
+[2025-09-03T18:56:00.117+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:56:00.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:56:00.122+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:56:00.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:56:00.125+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:56:00.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T18:57:22.723+0000] {processor.py:186} INFO - Started process (PID=266) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:57:22.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:57:22.726+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:57:22.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:57:22.734+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:57:22.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.040 seconds
+[2025-09-03T18:57:52.893+0000] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:57:52.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:57:52.898+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:57:52.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:57:52.901+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:57:52.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.038 seconds
+[2025-09-03T18:58:24.114+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:58:24.115+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:58:24.118+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:58:24.117+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:58:24.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:58:24.139+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T18:58:54.966+0000] {processor.py:186} INFO - Started process (PID=593) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:58:54.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:58:54.971+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:58:54.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:58:54.978+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:58:55.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.041 seconds
+[2025-09-03T18:59:26.031+0000] {processor.py:186} INFO - Started process (PID=698) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:59:26.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:59:26.035+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:59:26.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:59:26.039+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:59:26.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T18:59:57.154+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:59:57.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T18:59:57.157+0000] {logging_mixin.py:190} INFO - [2025-09-03T18:59:57.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:59:57.162+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T18:59:57.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T19:00:28.250+0000] {processor.py:186} INFO - Started process (PID=912) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:00:28.250+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:00:28.252+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:00:28.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:00:28.254+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:00:28.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.020 seconds
+[2025-09-03T19:00:58.936+0000] {processor.py:186} INFO - Started process (PID=1019) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:00:58.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:00:58.942+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:00:58.941+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:00:58.946+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:00:58.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T19:01:29.525+0000] {processor.py:186} INFO - Started process (PID=1125) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:01:29.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:01:29.533+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:01:29.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:01:29.540+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:01:29.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.038 seconds
+[2025-09-03T19:02:00.298+0000] {processor.py:186} INFO - Started process (PID=1232) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:02:00.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:02:00.302+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:02:00.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:02:00.305+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:02:00.324+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T19:02:31.212+0000] {processor.py:186} INFO - Started process (PID=1341) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:02:31.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:02:31.216+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:02:31.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:02:31.220+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:02:31.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.035 seconds
+[2025-09-03T19:03:01.847+0000] {processor.py:186} INFO - Started process (PID=1446) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:03:01.848+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:03:01.850+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:03:01.849+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:03:01.855+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:03:01.870+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T19:03:32.342+0000] {processor.py:186} INFO - Started process (PID=1553) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:03:32.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:03:32.347+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:03:32.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:03:32.352+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:03:32.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.038 seconds
+[2025-09-03T19:04:03.230+0000] {processor.py:186} INFO - Started process (PID=1662) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:04:03.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:04:03.234+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:04:03.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:04:03.236+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:04:03.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T19:04:33.944+0000] {processor.py:186} INFO - Started process (PID=1767) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:04:33.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:04:33.949+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:04:33.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:04:33.957+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:04:33.973+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.035 seconds
+[2025-09-03T19:05:04.590+0000] {processor.py:186} INFO - Started process (PID=1874) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:05:04.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:05:04.594+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:05:04.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:05:04.598+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:05:04.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T19:05:35.322+0000] {processor.py:186} INFO - Started process (PID=1981) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:05:35.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:05:35.326+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:05:35.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:05:35.329+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:05:35.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T19:06:05.927+0000] {processor.py:186} INFO - Started process (PID=2088) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:06:05.928+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:06:05.931+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:06:05.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:06:05.937+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:06:05.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T19:06:36.628+0000] {processor.py:186} INFO - Started process (PID=2194) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:06:36.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:06:36.633+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:06:36.632+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:06:36.636+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:06:36.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T19:07:07.396+0000] {processor.py:186} INFO - Started process (PID=2301) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:07:07.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:07:07.399+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:07:07.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:07:07.401+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:07:07.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T19:07:38.301+0000] {processor.py:186} INFO - Started process (PID=2408) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:07:38.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:07:38.304+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:07:38.303+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:07:38.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:07:38.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T19:08:08.909+0000] {processor.py:186} INFO - Started process (PID=2515) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:08:08.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:08:08.913+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:08:08.913+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:08:08.916+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:08:08.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T19:08:39.891+0000] {processor.py:186} INFO - Started process (PID=2622) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:08:39.892+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:08:39.895+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:08:39.894+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:08:39.898+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:08:39.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.027 seconds
+[2025-09-03T19:09:10.709+0000] {processor.py:186} INFO - Started process (PID=2729) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:09:10.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:09:10.713+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:09:10.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:09:10.720+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:09:10.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T19:09:41.564+0000] {processor.py:186} INFO - Started process (PID=2836) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:09:41.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:09:41.569+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:09:41.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:09:41.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:09:41.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T19:10:12.325+0000] {processor.py:186} INFO - Started process (PID=2943) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:10:12.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:10:12.329+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:10:12.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:10:12.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:10:12.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T19:10:43.320+0000] {processor.py:186} INFO - Started process (PID=3050) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:10:43.322+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:10:43.325+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:10:43.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:10:43.333+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:10:43.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.039 seconds
+[2025-09-03T19:11:14.316+0000] {processor.py:186} INFO - Started process (PID=3157) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:11:14.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:11:14.319+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:11:14.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:11:14.321+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:11:14.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T19:11:45.557+0000] {processor.py:186} INFO - Started process (PID=3266) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:11:45.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:11:45.562+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:11:45.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:11:45.566+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:11:45.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T19:12:16.671+0000] {processor.py:186} INFO - Started process (PID=3371) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:12:16.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:12:16.675+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:12:16.675+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:12:16.678+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:12:16.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T19:12:47.597+0000] {processor.py:186} INFO - Started process (PID=3478) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:12:47.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:12:47.601+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:12:47.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:12:47.607+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:12:47.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.040 seconds
+[2025-09-03T19:13:18.643+0000] {processor.py:186} INFO - Started process (PID=3585) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:13:18.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:13:18.648+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:13:18.647+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:13:18.652+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:13:18.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T19:13:49.521+0000] {processor.py:186} INFO - Started process (PID=3692) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:13:49.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:13:49.525+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:13:49.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:13:49.529+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:13:49.545+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T19:14:20.160+0000] {processor.py:186} INFO - Started process (PID=3799) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:14:20.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:14:20.164+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:14:20.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:14:20.167+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:14:20.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.023 seconds
+[2025-09-03T19:14:50.613+0000] {processor.py:186} INFO - Started process (PID=3906) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:14:50.614+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:14:50.616+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:14:50.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:14:50.618+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:14:50.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.024 seconds
+[2025-09-03T19:15:21.233+0000] {processor.py:186} INFO - Started process (PID=4013) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:15:21.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:15:21.236+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:15:21.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:15:21.239+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:15:21.256+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T19:15:51.840+0000] {processor.py:186} INFO - Started process (PID=4120) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:15:51.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:15:51.845+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:15:51.845+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:15:51.849+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:15:51.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.036 seconds
+[2025-09-03T19:16:22.528+0000] {processor.py:186} INFO - Started process (PID=4227) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:16:22.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:16:22.533+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:16:22.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:16:22.536+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:16:22.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T19:16:53.272+0000] {processor.py:186} INFO - Started process (PID=4334) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:16:53.274+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:16:53.277+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:16:53.276+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:16:53.280+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:16:53.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.037 seconds
+[2025-09-03T19:17:24.054+0000] {processor.py:186} INFO - Started process (PID=4441) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:17:24.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:17:24.057+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:17:24.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:17:24.060+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:17:24.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T19:17:54.726+0000] {processor.py:186} INFO - Started process (PID=4548) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:17:54.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:17:54.730+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:17:54.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:17:54.732+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:17:54.746+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T19:18:25.378+0000] {processor.py:186} INFO - Started process (PID=4655) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:18:25.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:18:25.382+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:18:25.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:18:25.387+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:18:25.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.027 seconds
+[2025-09-03T19:18:56.215+0000] {processor.py:186} INFO - Started process (PID=4768) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:18:56.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:18:56.220+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:18:56.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:18:56.223+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:18:56.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.032 seconds
+[2025-09-03T19:19:26.898+0000] {processor.py:186} INFO - Started process (PID=4875) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:19:26.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:19:26.901+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:19:26.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:19:26.904+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:19:26.919+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T19:19:57.457+0000] {processor.py:186} INFO - Started process (PID=4981) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:19:57.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:19:57.461+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:19:57.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:19:57.463+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:19:57.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.025 seconds
+[2025-09-03T19:20:28.120+0000] {processor.py:186} INFO - Started process (PID=5088) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:20:28.121+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:20:28.125+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:20:28.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:20:28.129+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:20:28.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.035 seconds
+[2025-09-03T19:20:58.804+0000] {processor.py:186} INFO - Started process (PID=5194) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:20:58.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:20:58.808+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:20:58.807+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:20:58.812+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:20:58.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.029 seconds
+[2025-09-03T19:21:29.509+0000] {processor.py:186} INFO - Started process (PID=5301) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:21:29.511+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:21:29.514+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:21:29.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:21:29.516+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:21:29.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.027 seconds
+[2025-09-03T19:22:00.289+0000] {processor.py:186} INFO - Started process (PID=5408) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:22:00.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:22:00.292+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:22:00.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:22:00.294+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:22:00.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T19:22:31.287+0000] {processor.py:186} INFO - Started process (PID=5515) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:22:31.288+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:22:31.291+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:22:31.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:22:31.296+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:22:31.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.033 seconds
+[2025-09-03T19:23:02.067+0000] {processor.py:186} INFO - Started process (PID=5622) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:23:02.068+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:23:02.071+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:23:02.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:23:02.074+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:23:02.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.026 seconds
+[2025-09-03T19:23:32.995+0000] {processor.py:186} INFO - Started process (PID=5729) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:23:32.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:23:33.000+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:23:32.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:23:33.003+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:23:33.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds
+[2025-09-03T19:24:03.919+0000] {processor.py:186} INFO - Started process (PID=5836) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:24:03.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:24:03.923+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:24:03.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:24:03.927+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:24:03.944+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.030 seconds
+[2025-09-03T19:24:34.824+0000] {processor.py:186} INFO - Started process (PID=5943) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:24:34.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:24:34.827+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:24:34.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:24:34.830+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:24:34.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.028 seconds
+[2025-09-03T19:25:05.654+0000] {processor.py:186} INFO - Started process (PID=6050) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:25:05.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:25:05.658+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:25:05.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:25:05.661+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:25:05.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.034 seconds
+[2025-09-03T19:25:36.687+0000] {processor.py:186} INFO - Started process (PID=6156) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:25:36.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:25:36.691+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:25:36.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:25:36.695+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:25:36.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.035 seconds
+[2025-09-03T19:26:07.773+0000] {processor.py:186} INFO - Started process (PID=6263) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:26:07.774+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:26:07.775+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:07.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:26:07.777+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:26:07.792+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.024 seconds
+[2025-09-03T19:26:38.684+0000] {processor.py:186} INFO - Started process (PID=6370) to work on /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:26:38.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/mssql_gl_to_pg_etl.py for tasks to queue
+[2025-09-03T19:26:38.689+0000] {logging_mixin.py:190} INFO - [2025-09-03T19:26:38.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:26:38.693+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/mssql_gl_to_pg_etl.py
+[2025-09-03T19:26:38.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/mssql_gl_to_pg_etl.py took 0.031 seconds

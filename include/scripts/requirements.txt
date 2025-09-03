@@ -12,16 +12,16 @@ apache-airflow-providers-common-sql
 apache-airflow-providers-microsoft-mssql
 apache-airflow-providers-postgres
 apache-airflow-providers-mysql
-apache-airflow-providers-snowflake
-astronomer-cosmos[dbt-snowflake]==1.3.2
-dbt-snowflake==1.7.2
-soda-core-snowflake==3.2.2
-soda-core-scientific==3.2.2
+# apache-airflow-providers-snowflake
+# astronomer-cosmos[dbt-snowflake]==1.3.2
+# dbt-snowflake==1.7.2
+# soda-core-snowflake==3.2.2
+# soda-core-scientific==3.2.2
 
 asyncpg
 faker
 pyodbc
-pandas
+pandas==2.1.4
 pendulum
 sqlalchemy
 cx-Oracle==8.3.0
