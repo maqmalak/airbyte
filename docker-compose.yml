@@ -390,21 +390,21 @@ services:
       - webapp
       - server
       - airbyte-api-server
-  pgadmin:
-    image: dpage/pgadmin4
-    container_name: pgadmin4_container
-    restart: always
-    ports:
-      - "8888:80"
-    environment:
-      PGADMIN_DEFAULT_EMAIL: docker@docker.com
-      PGADMIN_DEFAULT_PASSWORD: docker
-    networks:
-      - airbyte_internal
-    volumes:
-      - pgadmin-data:/var/lib/pgadmin
-    depends_on:
-      - db
+  # pgadmin:
+  #   image: dpage/pgadmin4
+  #   container_name: pgadmin4_container
+  #   restart: always
+  #   ports:
+  #     - "8888:80"
+  #   environment:
+  #     PGADMIN_DEFAULT_EMAIL: docker@docker.com
+  #     PGADMIN_DEFAULT_PASSWORD: docker
+  #   networks:
+  #     - airbyte_internal
+  #   volumes:
+  #     - pgadmin-data:/var/lib/pgadmin
+  #   depends_on:
+  #     - db
   airflow-webserver:
     <<: *airflow-common
     command: webserver
@@ -526,19 +526,19 @@ services:
       - -c
       - airflow
 
-  mysql:
-    image: mysql:8.3.0
-    environment:
-      MYSQL_ROOT_PASSWORD: docker
-      MYSQL_DATABASE: data
-      MYSQL_USER: docker
-      MYSQL_PASSWORD: docker
-    volumes:
-      - mysql-db:/var/lib/mysql
-    ports:
-      - "3306:3306"
-    networks:
-      - airbyte_internal
+#   mysql:
+#     image: mysql:8.3.0
+#     environment:
+#       MYSQL_ROOT_PASSWORD: docker
+#       MYSQL_DATABASE: data
+#       MYSQL_USER: docker
+#       MYSQL_PASSWORD: docker
+#     volumes:
+#       - mysql-db:/var/lib/mysql
+#     ports:
+#       - "3307:3306"
+#     networks:
+#       - airbyte_internal
 
 volumes:
   workspace:
@@ -548,8 +548,8 @@ volumes:
   # to read this volume to copy their configs to the database
   data:
     name: ${DATA_DOCKER_MOUNT}
-  mysql-db:
-    name: mysql_db
+  # mysql-db:
+  #   name: mysql_db
   db:
     name: ${DB_DOCKER_MOUNT}
   local_pgdata:
